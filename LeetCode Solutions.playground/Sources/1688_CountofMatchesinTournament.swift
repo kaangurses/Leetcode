@@ -1,6 +1,6 @@
 // 1688. Count of Matches in Tournament
 
-final class Solution {
+final class Solution1688 {
     func numberOfMatches(_ n: Int) -> Int {
         if n == 1 {
             return 0
