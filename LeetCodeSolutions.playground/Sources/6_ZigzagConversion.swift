@@ -1,6 +1,6 @@
 // 6. Zigzag Conversion
 
-final class Solution {
+final class Solution6 {
     func convert(_ s: String, _ numRows: Int) -> String {
         guard numRows > 1 else { return s }
         
