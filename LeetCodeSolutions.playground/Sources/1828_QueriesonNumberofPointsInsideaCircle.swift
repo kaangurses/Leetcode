@@ -1,6 +1,7 @@
+// 1828. Queries on Number of Points Inside a Circle
 import Foundation
 
-final class Solution {
+final class Solution1828 {
     func countPoints(_ points: [[Int]], _ queries: [[Int]]) -> [Int] {
         var result = Array(repeating: 0, count: queries.count)
         for idx in 0..<queries.count {
@@ -19,5 +20,3 @@ final class Solution {
         return result
     }
 }
-
-Solution().countPoints([[1,3],[3,3],[5,3],[2,2]], [[2,3,1],[4,3,1],[1,1,2]])
