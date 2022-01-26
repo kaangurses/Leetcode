@@ -1,6 +1,6 @@
 // 1221. Split a String in Balanced Strings
 
-final class Solution {
+final class Solution1221 {
     func balancedStringSplit(_ s: String) -> Int {
         var splitCount = 0
         var currentChar = ""

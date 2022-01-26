@@ -14,7 +14,7 @@ class TreeNode1315 {
     }
 }
 
-final class Solution {
+final class Solution1315 {
     private var total: Int = 0
     func sumEvenGrandparent(_ root: TreeNode1315?) -> Int {
         guard let root = root else { return 0 }
