@@ -1,4 +1,6 @@
-final class Solution {
+// 15. 3Sum
+
+final class Solution15 {
     func threeSum(_ nums: [Int]) -> [[Int]] {
         guard nums.count > 2 else { return [] }
         var result = [[Int]]()
@@ -24,6 +26,3 @@ final class Solution {
         return result
     }
 }
-Solution().threeSum([-2,0,1,1,2])
-Solution().threeSum([0,0,0,0])
-Solution().threeSum([-1,0,1,2,-1,-4])
