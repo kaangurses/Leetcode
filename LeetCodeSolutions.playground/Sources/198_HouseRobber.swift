@@ -1,6 +1,6 @@
 // 198. House Robber
 
-final class Solution {
+final class Solution198 {
     func rob(_ nums: [Int]) -> Int {
         var head = 0
         var previous = 0
