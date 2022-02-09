@@ -1,4 +1,6 @@
-final class Solution {
+// 532. K-diff Pairs in an Array
+
+final class Solution532 {
     func findPairs(_ nums: [Int], _ k: Int) -> Int {
         let nums = nums.sorted(by: { $0 < $1 })
         var resultNums = [Int]()
@@ -19,7 +21,3 @@ final class Solution {
         return resultNums.count
     }
 }
-
-
-Solution().findPairs([1,2,3,4,5], 1) // 4
-Solution().findPairs([3,1,4,1,5], 2) // 2
