@@ -1,4 +1,6 @@
-final class Solution {
+// 977. Squares of a Sorted Array
+
+final class Solution977 {
     func sortedSquares(_ nums: [Int]) -> [Int] {
         var result = Array(repeating: 0, count: nums.count)
         var left = 0
@@ -20,6 +22,3 @@ final class Solution {
         return result
     }
 }
-
-Solution().sortedSquares([-4,-1,0,3,10])
-Solution().sortedSquares([-7,-3,2,3,11])
