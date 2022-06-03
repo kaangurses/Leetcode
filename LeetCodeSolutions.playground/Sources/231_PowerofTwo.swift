@@ -16,3 +16,12 @@ final class Solution231 {
         return result == 1
     }
 }
+
+/*
+final class Solution {
+    func isPowerOfTwo(_ n: Int) -> Bool {
+        guard n > 0 else { return false }
+        return n & (n - 1) == 0
+    }
+}
+*/
