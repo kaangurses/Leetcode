@@ -1,4 +1,5 @@
 import CoreFoundation
+import Foundation
 @discardableResult public func measure(label: String? = nil, tests: Int = 1, printResults output: Bool = true, setup: @escaping () -> Void = { return }, _ block: @escaping () -> Void) -> Double {
 
     guard tests > 0 else { fatalError("Number of tests must be greater than 0") }
