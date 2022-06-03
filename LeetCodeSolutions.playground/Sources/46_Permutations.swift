@@ -21,6 +21,5 @@ final class Solution46 {
                 array.removeLast()
             }
         }
-
     }
 }
