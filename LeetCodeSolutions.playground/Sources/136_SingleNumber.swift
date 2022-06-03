@@ -2,6 +2,6 @@
 
 final class Solution136 {
     func singleNumber(_ nums: [Int]) -> Int {
-        nums.reduce(0,^)
+        nums.reduce(into: 0) { $0 = $0^$1 }
     }
 }
