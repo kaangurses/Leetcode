@@ -30,6 +30,3 @@ import Foundation
 
     return avgExecutionTime
 }
-
-let int = 9876
-let a = int.sort(by: <)
